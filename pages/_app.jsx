@@ -1,6 +1,5 @@
 import "@/styles/globals.css";
-import { Raleway } from "next/font/google";
-import Head from "next/head";
+import { Raleway } from "@next/font/google";
 import Script from "next/script";
 const raleway = Raleway({
   weight: "800",
