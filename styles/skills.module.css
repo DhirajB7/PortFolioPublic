@@ -73,4 +73,9 @@
   .skillComponent {
     grid-template-columns: repeat(2, 45%);
   }
+
+  .skillComponentWrapper {
+    margin-top: 0vh;
+  }
+
 }

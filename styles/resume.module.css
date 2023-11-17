@@ -78,4 +78,9 @@
     margin: 0.8rem;
     padding: 1rem 0rem 2rem 0rem;
   }
+
+  .resumeComponent {
+    margin-top: 0vh;
+  }
+
 }

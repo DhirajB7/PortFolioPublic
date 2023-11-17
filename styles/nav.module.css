@@ -150,4 +150,12 @@
   .oneNavLink > div:nth-child(2) {
     display: none;
   }
+
+  .nav {
+    height: 10vh;
+    width: 100%;
+    top: unset;
+    bottom: 0px;
+  }
+
 }

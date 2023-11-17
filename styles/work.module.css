@@ -109,4 +109,9 @@
   .workComponent > ul {
     justify-content: start;
   }
+
+  .workComponent {
+    margin-top: 0vh;
+  }
+
 }

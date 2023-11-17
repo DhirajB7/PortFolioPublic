@@ -144,4 +144,9 @@
   .homeComponentImageContainer {
     width: 90%;
   }
+
+  .homeComponent {
+    margin-top: 0vh;
+  }
+
 }
