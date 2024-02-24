@@ -1,12 +1,13 @@
 import { Button, Snackbar } from "@mui/material";
 import React, { useState } from "react";
 import style from "../../styles/resume.module.css";
-import resume from "../../public/image/resume/Dhiraj_Resume.png";
+import resumefsd from "../../public/image/resume/fsd/Dhiraj_Resume.png";
+import resumefd from "../../public/image/resume/fd/Dhiraj_Resume.png";
 import SlideComponent from "../helper/SlideComponent";
 import Image from "next/image";
 import Link from "next/link";
 
-const ResumePageComponent = () => {
+const ResumePageComponent = ({ showFsd }) => {
   const [dwn, setDwn] = useState(false);
 
   return (
@@ -17,7 +18,11 @@ const ResumePageComponent = () => {
       <SlideComponent direction="down">
         <div className={style.resumeComponentButtonContainer}>
           <Link
-            href="/image/resume/Dhiraj_Resume.pdf"
+            href={
+              showFsd
+                ? "/image/resume/fsd/Dhiraj_Resume.pdf"
+                : "/image/resume/fd/Dhiraj_Resume.pdf"
+            }
             download="Dhiraj_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
@@ -48,7 +53,7 @@ const ResumePageComponent = () => {
         <div className={style.resumeComponentImageContainer}>
           <Image
             className={style.resumeComponentImage}
-            src={resume}
+            src={showFsd ? resumefsd : resumefd}
             alt="Dhiraj_Resume"
           />
         </div>

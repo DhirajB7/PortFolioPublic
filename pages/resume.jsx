@@ -18,7 +18,12 @@ export default function Resume({ flag }) {
       <main>
         <div className={styles.resumePage}>
           <NavBar flag={flag} />
-          <ResumePageComponent />
+          <ResumePageComponent
+            showFsd={Intl.DateTimeFormat()
+              .resolvedOptions()
+              .timeZone.split("/")[0]
+              .includes(["Asia"])}
+          />
         </div>
       </main>
     </>
