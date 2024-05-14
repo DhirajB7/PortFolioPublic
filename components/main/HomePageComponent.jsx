@@ -26,7 +26,7 @@ const HomePageComponent = () => {
             <p className={styles.homeComponentBody}>
               <span className={styles.paraOne}>🥷</span>
               Hello, I'm <span className={styles.name}>Dhiraj</span> a coding
-              ninja with 8 years of experience in the world of web development .
+              ninja with 9 years of experience in the world of web development .
             </p>
           </SlideComponent>
           <SlideComponent direction="up">

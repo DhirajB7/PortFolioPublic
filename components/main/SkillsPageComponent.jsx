@@ -5,6 +5,7 @@ import js from "../../public/image/skills/js.png";
 import sass from "../../public/image/skills/sass.png";
 import react from "../../public/image/skills/react.png";
 import redux from "../../public/image/skills/redux.png";
+import reactNative from "../../public/image/skills/reactNative.png";
 import nextjs from "../../public/image/skills/nextjs.png";
 import mui from "../../public/image/skills/mui.png";
 import ant from "../../public/image/skills/ant.png";
@@ -32,6 +33,7 @@ const data = [
   { name: "javascript", path: js, alt: "js" },
   { name: "react", path: react, alt: "react" },
   { name: "redux", path: redux, alt: "redux" },
+  { name: "react native", path: reactNative, alt: "react native" },
   { name: "next JS", path: nextjs, alt: "next js" },
   { name: "firebase", path: firebase, alt: "Firebase" },
   { name: "git", path: git, alt: "git" },

@@ -13,7 +13,7 @@ const WorkPageComponent = () => {
       duration: getCurrentExp(2022),
       icon: "js",
       direction: "down",
-      role: "REACT DEVELOPER",
+      role: "SENIOR FRONTEND DEVELOPER",
     },
     {
       name: "THIS IS DMG! GmbH",
@@ -29,7 +29,7 @@ const WorkPageComponent = () => {
       duration: "5 YEARS 2 MONTHS",
       icon: "java",
       direction: "right",
-      role: "SOFTWARE ENGINEER",
+      role: "SENIOR SOFTWARE ENGINEER",
     },
   ];
 

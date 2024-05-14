@@ -27,12 +27,28 @@
 }
 
 .navComponentImage {
-  border-radius: 50%;
-  box-shadow: 0 0 12px 9px #f2aa4c;
+  box-shadow: 0 0 15px 6px #f2aa4c;
   max-width: 100%;
   height: auto;
   position: relative;
   left: 14px;
+  animation: morph 7s infinite alternate;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 50%;
+  }
+  25% {
+    border-radius: 60% 40% 70% 30% / 50% 40% 60% 50%;
+  }
+  50%,
+  100% {
+    border-radius: 70% 30% 60% 40% / 40% 50% 30% 60%;
+  }
+  75% {
+    border-radius: 50% 60% 40% 70% / 60% 50% 70% 30%;
+  }
 }
 
 .navList {
@@ -157,5 +173,4 @@
     top: unset;
     bottom: 0px;
   }
-
 }
