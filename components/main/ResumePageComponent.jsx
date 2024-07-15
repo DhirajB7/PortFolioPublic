@@ -1,7 +1,7 @@
 import { Button, Snackbar } from "@mui/material";
 import React, { useState } from "react";
 import style from "../../styles/resume.module.css";
-import resumefd from "../../public/image/resume/fd/Dhiraj_Resume.png";
+import resumefd from "../../public/image/resume/Dhiraj_Resume.png";
 import SlideComponent from "../helper/SlideComponent";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,7 +17,7 @@ const ResumePageComponent = () => {
       <SlideComponent direction="down">
         <div className={style.resumeComponentButtonContainer}>
           <Link
-            href="/image/resume/fd/Dhiraj_Resume.pdf"
+            href="/image/resume/Dhiraj_Resume.pdf"
             download="Dhiraj_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
